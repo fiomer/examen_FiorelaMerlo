@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+   :root{
+    --color-negro:#282d33;
+    --color-gris: #777;
+    --menu-hover:#282d33;
+    --fondo-footer:#30363d;
+    --color-footer:#898989;
+     --primary-color: #282d33;
+    --secondary-color: #777;
+    --font-family: 'Catamaran', sans-serif;
+}
+body{
+     margin: 0;
+    font-family: var;
+    color: var;
+}
+
+header {
+    background: url('path/to/hero-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
+
+header .btn {
+    background-color: var;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.intro, .services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.intro .column, .services .column {
+    padding: 10px;
+    text-align: center;
+    max-width: 1000px;
+    
+}
+
+.intro h2, .services h2 {
+    color: var;
+    font-weight: 700;
+}
+
+.intro p, .services p {
+    color: var;
+}
+
+.container h3, p {
+	
+}
+.cta {
+    background: url("../img/home-grid-banner.jpg") no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.cta .btn {
+    background-color: #fff;
+    color: var;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.clients img {
+    max-width: 400px;
+}
+
+.carousel-caption h1 {
+    font-size: 80px;
+}
+
+footer{
+    background-color: var;
+    color: var;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 13px;
+}
